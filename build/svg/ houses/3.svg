@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="none" viewBox="0 0 100 100">
+    <g clip-path="url(#3a)">
+        <ellipse cx="34.5" cy="58" fill="#282536" fill-opacity=".6" rx="32.5" ry="36"/>
+        <circle cx="7.5" cy="64.5" r="2.5" fill="url(#3b)" fill-opacity=".8" transform="rotate(-180 7.5 64.5)"/>
+        <circle cx="14.5" cy="57.5" r="2.5" fill="url(#3c)" fill-opacity=".8" transform="rotate(-180 14.5 57.5)"/>
+        <circle cx="21.5" cy="47.5" r="2.5" fill="url(#3d)" fill-opacity=".8" transform="rotate(-180 21.5 47.5)"/>
+        <circle cx="14.5" cy="74.5" r="2.5" fill="url(#3e)" fill-opacity=".8" transform="rotate(-180 14.5 74.5)"/>
+        <circle cx="20.5" cy="64.5" r="2.5" fill="url(#3f)" fill-opacity=".8" transform="rotate(-180 20.5 64.5)"/>
+        <circle cx="9.5" cy="48.5" r="2.5" fill="url(#3g)" fill-opacity=".8" transform="rotate(-180 9.5 48.5)"/>
+        <circle cx="14.5" cy="37.5" r="2.5" fill="url(#3h)" fill-opacity=".8" transform="rotate(-180 14.5 37.5)"/>
+        <circle cx="25.5" cy="31.5" r="2.5" fill="url(#3i)" fill-opacity=".8" transform="rotate(-180 25.5 31.5)"/>
+        <path fill="#282536" d="M18 69h2v22h-2zM15 69h2v22h-2zM12 69h2v22h-2zM9 69h2v22H9zM6 69h2v22H6z"/>
+        <path fill="#282536" d="M20 87v2H3v-2zM20 72v2H3v-2z"/>
+        <path fill="#282536" d="M3 69h2v22H3z"/>
+        <path fill="#403C54" d="M20 61h77v33H20z"/>
+        <path fill="#282536" d="M34.667 25h50.11L97 61H20l14.667-36Z"/>
+        <path fill="url(#3j)" d="M44-1h8l-.075.299a40 40 0 0 0 0 19.402L52 19h-8l-2-5a16.601 16.601 0 0 1-.684-10.222l.184-.73L44-1Z"/>
+        <path fill="#282536" d="M42 17h10v16H42z"/>
+        <path fill="#282536" d="M41 16h12v3H41z"/>
+        <path fill="#fff" d="M58.208 51.336c-1.024 0-1.88-.112-2.568-.336a12.335 12.335 0 0 1-2.016-.864l.24-3.12h.696l.84 1.872c.544 1.184 1.44 1.776 2.688 1.776.752 0 1.368-.296 1.848-.888.48-.592.72-1.576.72-2.952 0-1.232-.216-2.112-.648-2.64-.432-.528-1.12-.792-2.064-.792h-1.416v-.72H57.8c.848 0 1.48-.248 1.896-.744.416-.512.624-1.376.624-2.592 0-1.152-.192-1.976-.576-2.472-.384-.496-.872-.744-1.464-.744s-1.072.152-1.44.456c-.352.304-.64.712-.864 1.224l-.912 1.944-.72-.024.24-3.504a8.42 8.42 0 0 1 1.728-.576c.64-.16 1.352-.24 2.136-.24 1.648 0 2.904.36 3.768 1.08.864.72 1.296 1.632 1.296 2.736 0 .784-.32 1.528-.96 2.232-.624.704-1.6 1.208-2.928 1.512 1.52.144 2.624.584 3.312 1.32.704.72 1.056 1.592 1.056 2.616 0 .848-.232 1.608-.696 2.28-.464.672-1.128 1.2-1.992 1.584-.864.384-1.896.576-3.096.576ZM98 93a7.211 7.211 0 0 0-10-2l-6.418-.95C78.154 89.54 75.274 92.611 76 96h24l-2-3Z"/>
+        <path fill="#282536" fill-opacity=".6" d="m46.138 73 .251 3.619 2.688.25-2.688.323-.25 4.085-.287-4.085-2.652-.322 2.652-.251.286-3.619ZM71.138 73l.251 3.619 2.688.25-2.688.323-.25 4.085-.287-4.085-2.653-.322 2.653-.251.286-3.619Z"/>
+        <path stroke="#282536" stroke-opacity=".6" d="M20 89.5h77M20 64h77"/>
+        <path fill="#282536" d="M25 69h15v17H25z"/>
+        <path fill="#403C54" d="M25.5 69.5h14v16h-14v-16Z"/>
+        <path fill="currentColor" d="M26 70h5.909v6.923H26zM33.091 70H39v6.923h-5.909zM33.091 78.077H39V85h-5.909zM26 78.077h5.909V85H26z"/>
+        <path fill="#282536" d="M51 69h15v17H51z"/>
+        <path fill="#403C54" d="M51.5 69.5h14v16h-14v-16Z"/>
+        <path fill="currentColor" d="M52 70h5.909v6.923H52zM59.091 70H65v6.923h-5.909zM59.091 78.077H65V85h-5.909zM52 78.077h5.909V85H52z"/>
+        <path fill="#282536" d="M77 69h15v17H77z"/>
+        <path fill="#403C54" d="M77.5 69.5h14v16h-14v-16Z"/>
+        <path fill="currentColor" d="M78 70h5.909v6.923H78zM85.091 70H91v6.923h-5.909zM85.091 78.077H91V85h-5.909zM78 78.077h5.909V85H78z"/>
+    </g>
+    <defs>
+        <linearGradient id="3b" x1="7.5" x2="7.5" y1="62" y2="67" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FDE5A8"/>
+            <stop offset=".677" stop-color="#FDE5A8" stop-opacity=".7"/>
+            <stop offset="1" stop-color="#FDE5A8" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="3c" x1="14.5" x2="14.5" y1="55" y2="60" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FDE5A8"/>
+            <stop offset=".677" stop-color="#FDE5A8" stop-opacity=".7"/>
+            <stop offset="1" stop-color="#FDE5A8" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="3d" x1="21.5" x2="21.5" y1="45" y2="50" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FDE5A8"/>
+            <stop offset=".677" stop-color="#FDE5A8" stop-opacity=".7"/>
+            <stop offset="1" stop-color="#FDE5A8" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="3e" x1="14.5" x2="14.5" y1="72" y2="77" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FDE5A8"/>
+            <stop offset=".677" stop-color="#FDE5A8" stop-opacity=".7"/>
+            <stop offset="1" stop-color="#FDE5A8" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="3f" x1="20.5" x2="20.5" y1="62" y2="67" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FDE5A8"/>
+            <stop offset=".677" stop-color="#FDE5A8" stop-opacity=".7"/>
+            <stop offset="1" stop-color="#FDE5A8" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="3g" x1="9.5" x2="9.5" y1="46" y2="51" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FDE5A8"/>
+            <stop offset=".677" stop-color="#FDE5A8" stop-opacity=".7"/>
+            <stop offset="1" stop-color="#FDE5A8" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="3h" x1="14.5" x2="14.5" y1="35" y2="40" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FDE5A8"/>
+            <stop offset=".677" stop-color="#FDE5A8" stop-opacity=".7"/>
+            <stop offset="1" stop-color="#FDE5A8" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="3i" x1="25.5" x2="25.5" y1="29" y2="34" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FDE5A8"/>
+            <stop offset=".677" stop-color="#FDE5A8" stop-opacity=".7"/>
+            <stop offset="1" stop-color="#FDE5A8" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="3j" x1="48" x2="48" y1=".19" y2="20.191" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#D9D9D9" stop-opacity="0"/>
+            <stop offset="1" stop-color="#F5F5F5"/>
+        </linearGradient>
+        <clipPath id="3a">
+            <path fill="#fff" d="M0 0h100v100H0z"/>
+        </clipPath>
+    </defs>
+</svg>

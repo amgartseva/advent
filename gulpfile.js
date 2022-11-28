@@ -9,7 +9,6 @@ const browserSync = require('browser-sync').create();
 const svgSprite = require('gulp-svg-sprite');
 const plumber = require('gulp-plumber');
 const cleanCSS = require('gulp-clean-css');
-const imageminMozjpeg = require('imagemin-mozjpeg');
 const uglify = require('gulp-uglify');
 
 const html = () => {
@@ -19,15 +18,6 @@ const html = () => {
 }
 
 exports.html = html;
-
-const fonts = (done) => {
-    gulp
-        .src('./src/fonts/*{ttf,woff,woff2,svg,eot}')
-        .pipe(gulp.dest('./build/fonts/'));
-    done();
-}
-
-exports.fonts = fonts;
 
 const styles = () => {
     return gulp
@@ -50,14 +40,7 @@ exports.styles = styles;
 
 const svg_sprite = () => {
     return gulp
-        .src('./src/svg/*.svg')
-        .pipe(
-            imagemin([
-                imagemin.svgo({
-                    plugins: [{ removeViewBox: false }, { cleanupIDs: false }],
-                }),
-            ])
-        )
+        .src('./src/svg/**/*.svg')
         .pipe(gulp.dest('./build/svg/'))
         .pipe(
             svgSprite({
@@ -99,8 +82,7 @@ const watch = () => {
     });
 
     gulp.watch('./src/less/**/*.less', styles);
-    gulp.watch('./src/fonts/**/*.{ttf,woff,woff2,svg,eot}', fonts);
-    gulp.watch('./src/svg/*.svg', svg_sprite);
+    gulp.watch('./src/svg/**/*.svg', svg_sprite);
     gulp.watch('./src/js/*.js', js);
     gulp.watch('./src/html/*.html', html);
 }
@@ -112,7 +94,6 @@ const build = gulp.series(
     gulp.parallel(
         html,
         styles,
-        fonts,
         svg_sprite,
         js
     )
