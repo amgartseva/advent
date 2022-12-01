@@ -149,19 +149,19 @@ function renderTaskButtons(canBeChanged, houseId) {
 function getDataFromJSON() {
     // Function to get data from json into js
     if (localStorage.length === 0) {
-        fetch('../json/days_data.json')
+        fetch('https://amgartseva.github.io/advent.github.io/build/json/days_data.json')
             .then((response) => response.json())
             .then((json) => daysData = json)
             .then(() => window.localStorage.setItem(daysData, JSON.stringify(daysData)));
-        fetch('../json/tasks.json')
+        fetch('https://amgartseva.github.io/advent.github.io/build/json/tasks.json')
             .then((response) => response.json())
             .then((json) => tasksData = json)
             .then(() => window.localStorage.setItem(tasksData, JSON.stringify(tasksData)));
     } else {
-        fetch('../json/days_data.json')
+        fetch('https://amgartseva.github.io/advent.github.io/build/json/days_data.json')
             .then((response) => response.json())
             .then((json) => daysData = json)
-        fetch('../json/tasks.json')
+        fetch('https://amgartseva.github.io/advent.github.io/build/json/tasks.json')
             .then((response) => response.json())
             .then((json) => tasksData = json)
             .then(() => renderCheckedHouses());
