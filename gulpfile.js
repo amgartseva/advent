@@ -68,6 +68,14 @@ const js = () => {
 
 exports.js = js;
 
+const json = () => {
+    return gulp
+        .src('./src/json/*.json')
+        .pipe(gulp.dest('./build/json'));
+}
+
+exports.json = json;
+
 const clean = () => {
     return del(['build/*']);
 }
@@ -85,6 +93,7 @@ const watch = () => {
     gulp.watch('./src/svg/**/*.svg', svg_sprite);
     gulp.watch('./src/js/*.js', js);
     gulp.watch('./src/html/*.html', html);
+    gulp.watch('./src/json/*.json', json);
 }
 
 exports.watch = watch;
@@ -95,7 +104,8 @@ const build = gulp.series(
         html,
         styles,
         svg_sprite,
-        js
+        js,
+        json
     )
 );
 

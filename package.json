@@ -2,7 +2,7 @@
   "name": "advent-calendar-2022",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "build/index.html",
   "dependencies": {
     "del": "^6.1.1",
     "gulp-install": "^1.1.0",

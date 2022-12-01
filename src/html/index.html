@@ -6,8 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Advent calendar 2022</title>
-    <link rel="icon" type="image/svg+xml" href="/svg/favicon.svg">
-    <link rel="stylesheet" href="/css/style.min.css">
+    <link rel="icon" type="image/svg+xml" href="./svg/favicon.svg">
+    <link rel="stylesheet" href="./css/style.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Text&display=swap" rel="stylesheet">
@@ -29,28 +29,27 @@
 
                 <div class="task__content">
 
-                    <h2 class="task__title">
-                        1st of december
-                    </h2>
+                    <template id="task-content">
 
-                    <p class="task__text">
-                        Some example of a text. Not very long, but it has a <a class="task__link" href="#">link</a>!
-                    </p>
+                        <h2 class="task__title">
+                            1st of december
+                        </h2>
 
-                    <p class="task__text">
-                        Second paragraph JUST IN CASE!!
-                    </p>
+                        <p class="task__text">
+                            Some example of a text. Not very long, but it has a <a class="task__link" href="#">link</a>!
+                        </p>
+                    </template>
                 </div>
 
-                <div class="task__button-container">
+                <div class="task__button-container task__button-container--hidden">
 
-                    <button class="task__button" type="button">
-                        Another activity, please
+                    <button id="set-button" class="task__button" type="button">
+                        I love this!
                     </button>
 
-                    <p class="task__error">
-                        Error text
-                    </p>
+                    <button id="change-button" class="task__button" type="button">
+                        Another activity, please
+                    </button>
                 </div>
             </div>
 
@@ -960,5 +959,6 @@
             </div>
         </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
